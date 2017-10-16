@@ -1,0 +1,74 @@
+body {background-color: black;}
+
+.colorsSelectBar {
+  background-color: rgb(150, 150, 150);
+  width: 100vw;
+  height: 10vh;
+  padding-left: 2vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.color {
+  display: inline-block;
+  border: black solid 1px;
+  width: 10vw;
+  height: 8vh;
+}
+
+#red {
+  background-color: rgb(155, 50, 50);
+}
+
+#blue {
+  background-color: rgb(50, 50, 150);
+}
+
+#green {
+  background-color: rgb(50, 155, 50);
+}
+
+#black {
+  background-color: rgb(0, 0, 0);
+}
+
+#white {
+  background-color: rgb(255, 255, 255);
+}
+
+.grid {
+  background-color: rgb(255,255,255);
+  margin: 1em auto;
+  border-collapse: collapse
+  max-height: 95vw;
+}
+
+.grid td {
+  cursor: pointer;
+  width: 4vw;
+  height: 4vw;
+  //border:1px solid #ccc;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1px
+}
+
+.grid td.red {
+  background-color: rgb(155, 50, 50);
+}
+
+.grid td.blue {
+  background-color: rgb(50, 50, 155);
+}
+
+.grid td.green {
+  background-color: rgb(50, 155, 50);
+}
+
+.grid td.black {
+  background-color: rgb(0, 0, 0);
+}
+
+.grid td.white {
+  background-color: rgb(255, 255, 255);
+}
